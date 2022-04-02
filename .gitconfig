@@ -1,0 +1,9 @@
+[alias]
+    amp = !"git commit -am \"Nice Commit! :)\" && git push"
+    
+
+[user]
+	email = joachimflottorp@gmail.com
+	name = Joachim Flottorp
+[credential]
+	helper = manager-core
