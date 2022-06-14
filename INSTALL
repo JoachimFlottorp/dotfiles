@@ -1,0 +1,12 @@
+# Things to install and the configure params
+
+# YouCompleteMe (Vim Plugin)
+# Requires Golang, Node, npm and python3.10
+% python3 install.py --go-completer --ts-completer --verbose --clang-completer
+
+
+# Vim
+% LDFLAGS="-rdynamic" ./configure \
+    --enable-multibyte --enable-python3interp 
+    --with-python3-config-dir=/usr/lib/python3.10/config-3.10-x86_64-linux-gnu \
+    --enable-cscope --enable-largefile
