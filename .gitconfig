@@ -3,7 +3,7 @@
     
 
 [user]
-	email = joachimflottorp@gmail.com
+    email = joachim@flottorp.org
 	name = Joachim Flottorp
 [credential]
 	helper = manager-core
