@@ -24,7 +24,6 @@ Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
 Plug 'mbbill/undotree'
-Plug 'valloric/youcompleteme'
 Plug 'tomasr/molokai'
 
 call plug#end()
