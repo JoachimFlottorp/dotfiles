@@ -5,6 +5,9 @@ window:
   opacity: 1.0
   decorations: none
 
+selection:
+  copy_to_clipboard: true
+
 font:
   size: 10
   normal:
@@ -26,6 +29,7 @@ shell:
     program: /usr/bin/bash
 
 key_bindings:
-  - { key: V, mods: Control|Shift, action: Paste }
-  - { key: C, mods: Control|Shift, action: Copy }
-  - { key: Insert, mods: Shift, action: PasteSelection }
+  - { key: V,      mods: Control, action: Paste }
+  - { key: C,      mods: Control, action: Copy }
+  - { key: C,      mods: Control, chars: "\x03" }
+  - { key: Return, mods: Super|Shift, action: SpawnNewInstance  }
